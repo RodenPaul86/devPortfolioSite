@@ -376,6 +376,18 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+/* Hide by default (desktop) */
+.mobile-only-btn {
+  display: none;
+}
+
+/* Show only on mobile */
+@media (max-width: 768px) {
+  .mobile-only-btn {
+    display: block;
+  }
+}
+
 /* CONTACT */
 
 #contact {
